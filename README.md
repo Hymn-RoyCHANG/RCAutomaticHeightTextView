@@ -1,6 +1,6 @@
 # RCAutomaticHeightTextView
 ## 这个是干嘛的
-    'TextView'输入字符串会根据字符串的内容自动改变‘TextView’的高度。
+    根据字符串的内容自动改变‘TextView’的高度。
 ## 使用说明
 
     iOS7+，适用于‘Frame’方式布局和‘AutoLayout’方式高度属性(NSLayoutAttributeHeight)的布局。
