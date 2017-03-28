@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0E9CE611E87FA2A00798F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE601E87FA2A00798F80 /* main.m */; };
+		B0E9CE641E87FA2A00798F80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE631E87FA2A00798F80 /* AppDelegate.m */; };
+		B0E9CE671E87FA2A00798F80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE661E87FA2A00798F80 /* ViewController.m */; };
+		B0E9CE6A1E87FA2A00798F80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E9CE681E87FA2A00798F80 /* Main.storyboard */; };
+		B0E9CE6C1E87FA2A00798F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E9CE6B1E87FA2A00798F80 /* Assets.xcassets */; };
+		B0E9CE6F1E87FA2A00798F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E9CE6D1E87FA2A00798F80 /* LaunchScreen.storyboard */; };
+		B0E9CE7A1E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE791E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.m */; };
+		B0E9CE851E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE841E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.m */; };
+		B0E9CE951E87FA8800798F80 /* RCAutomaticHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE941E87FA8800798F80 /* RCAutomaticHeightTextView.m */; };
+		B0E9CE9B1E8A1C0B00798F80 /* TextViewInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9CE9A1E8A1C0B00798F80 /* TextViewInTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0E9CE761E87FA2A00798F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0E9CE541E87FA2A00798F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E9CE5B1E87FA2A00798F80;
+			remoteInfo = RCAutomaticHeightTextView;
+		};
+		B0E9CE811E87FA2A00798F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0E9CE541E87FA2A00798F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E9CE5B1E87FA2A00798F80;
+			remoteInfo = RCAutomaticHeightTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0E9CE5C1E87FA2A00798F80 /* RCAutomaticHeightTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCAutomaticHeightTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E9CE601E87FA2A00798F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E9CE621E87FA2A00798F80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0E9CE631E87FA2A00798F80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0E9CE651E87FA2A00798F80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0E9CE661E87FA2A00798F80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0E9CE691E87FA2A00798F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0E9CE6B1E87FA2A00798F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0E9CE6E1E87FA2A00798F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0E9CE701E87FA2A00798F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E9CE751E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCAutomaticHeightTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E9CE791E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAutomaticHeightTextViewTests.m; sourceTree = "<group>"; };
+		B0E9CE7B1E87FA2A00798F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E9CE801E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCAutomaticHeightTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E9CE841E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAutomaticHeightTextViewUITests.m; sourceTree = "<group>"; };
+		B0E9CE861E87FA2A00798F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E9CE931E87FA8800798F80 /* RCAutomaticHeightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAutomaticHeightTextView.h; sourceTree = "<group>"; };
+		B0E9CE941E87FA8800798F80 /* RCAutomaticHeightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAutomaticHeightTextView.m; sourceTree = "<group>"; };
+		B0E9CE991E8A1C0B00798F80 /* TextViewInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewInTableViewCell.h; sourceTree = "<group>"; };
+		B0E9CE9A1E8A1C0B00798F80 /* TextViewInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewInTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E9CE591E87FA2A00798F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E9CE721E87FA2A00798F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E9CE7D1E87FA2A00798F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0E9CE531E87FA2A00798F80 = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE5E1E87FA2A00798F80 /* RCAutomaticHeightTextView */,
+				B0E9CE781E87FA2A00798F80 /* RCAutomaticHeightTextViewTests */,
+				B0E9CE831E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests */,
+				B0E9CE5D1E87FA2A00798F80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E9CE5D1E87FA2A00798F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE5C1E87FA2A00798F80 /* RCAutomaticHeightTextView.app */,
+				B0E9CE751E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.xctest */,
+				B0E9CE801E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E9CE5E1E87FA2A00798F80 /* RCAutomaticHeightTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE921E87FA5F00798F80 /* Class */,
+				B0E9CE621E87FA2A00798F80 /* AppDelegate.h */,
+				B0E9CE631E87FA2A00798F80 /* AppDelegate.m */,
+				B0E9CE651E87FA2A00798F80 /* ViewController.h */,
+				B0E9CE661E87FA2A00798F80 /* ViewController.m */,
+				B0E9CE991E8A1C0B00798F80 /* TextViewInTableViewCell.h */,
+				B0E9CE9A1E8A1C0B00798F80 /* TextViewInTableViewCell.m */,
+				B0E9CE681E87FA2A00798F80 /* Main.storyboard */,
+				B0E9CE6B1E87FA2A00798F80 /* Assets.xcassets */,
+				B0E9CE6D1E87FA2A00798F80 /* LaunchScreen.storyboard */,
+				B0E9CE701E87FA2A00798F80 /* Info.plist */,
+				B0E9CE5F1E87FA2A00798F80 /* Supporting Files */,
+			);
+			path = RCAutomaticHeightTextView;
+			sourceTree = "<group>";
+		};
+		B0E9CE5F1E87FA2A00798F80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE601E87FA2A00798F80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0E9CE781E87FA2A00798F80 /* RCAutomaticHeightTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE791E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.m */,
+				B0E9CE7B1E87FA2A00798F80 /* Info.plist */,
+			);
+			path = RCAutomaticHeightTextViewTests;
+			sourceTree = "<group>";
+		};
+		B0E9CE831E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE841E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.m */,
+				B0E9CE861E87FA2A00798F80 /* Info.plist */,
+			);
+			path = RCAutomaticHeightTextViewUITests;
+			sourceTree = "<group>";
+		};
+		B0E9CE921E87FA5F00798F80 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B0E9CE931E87FA8800798F80 /* RCAutomaticHeightTextView.h */,
+				B0E9CE941E87FA8800798F80 /* RCAutomaticHeightTextView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E9CE5B1E87FA2A00798F80 /* RCAutomaticHeightTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E9CE891E87FA2A00798F80 /* Build configuration list for PBXNativeTarget "RCAutomaticHeightTextView" */;
+			buildPhases = (
+				B0E9CE581E87FA2A00798F80 /* Sources */,
+				B0E9CE591E87FA2A00798F80 /* Frameworks */,
+				B0E9CE5A1E87FA2A00798F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCAutomaticHeightTextView;
+			productName = RCAutomaticHeightTextView;
+			productReference = B0E9CE5C1E87FA2A00798F80 /* RCAutomaticHeightTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0E9CE741E87FA2A00798F80 /* RCAutomaticHeightTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E9CE8C1E87FA2A00798F80 /* Build configuration list for PBXNativeTarget "RCAutomaticHeightTextViewTests" */;
+			buildPhases = (
+				B0E9CE711E87FA2A00798F80 /* Sources */,
+				B0E9CE721E87FA2A00798F80 /* Frameworks */,
+				B0E9CE731E87FA2A00798F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E9CE771E87FA2A00798F80 /* PBXTargetDependency */,
+			);
+			name = RCAutomaticHeightTextViewTests;
+			productName = RCAutomaticHeightTextViewTests;
+			productReference = B0E9CE751E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0E9CE7F1E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E9CE8F1E87FA2A00798F80 /* Build configuration list for PBXNativeTarget "RCAutomaticHeightTextViewUITests" */;
+			buildPhases = (
+				B0E9CE7C1E87FA2A00798F80 /* Sources */,
+				B0E9CE7D1E87FA2A00798F80 /* Frameworks */,
+				B0E9CE7E1E87FA2A00798F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E9CE821E87FA2A00798F80 /* PBXTargetDependency */,
+			);
+			name = RCAutomaticHeightTextViewUITests;
+			productName = RCAutomaticHeightTextViewUITests;
+			productReference = B0E9CE801E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E9CE541E87FA2A00798F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Roy CHANG";
+				TargetAttributes = {
+					B0E9CE5B1E87FA2A00798F80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3Q2P7CQ42U;
+						ProvisioningStyle = Automatic;
+					};
+					B0E9CE741E87FA2A00798F80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0E9CE5B1E87FA2A00798F80;
+					};
+					B0E9CE7F1E87FA2A00798F80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0E9CE5B1E87FA2A00798F80;
+					};
+				};
+			};
+			buildConfigurationList = B0E9CE571E87FA2A00798F80 /* Build configuration list for PBXProject "RCAutomaticHeightTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0E9CE531E87FA2A00798F80;
+			productRefGroup = B0E9CE5D1E87FA2A00798F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E9CE5B1E87FA2A00798F80 /* RCAutomaticHeightTextView */,
+				B0E9CE741E87FA2A00798F80 /* RCAutomaticHeightTextViewTests */,
+				B0E9CE7F1E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E9CE5A1E87FA2A00798F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E9CE6F1E87FA2A00798F80 /* LaunchScreen.storyboard in Resources */,
+				B0E9CE6C1E87FA2A00798F80 /* Assets.xcassets in Resources */,
+				B0E9CE6A1E87FA2A00798F80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E9CE731E87FA2A00798F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E9CE7E1E87FA2A00798F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E9CE581E87FA2A00798F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E9CE671E87FA2A00798F80 /* ViewController.m in Sources */,
+				B0E9CE9B1E8A1C0B00798F80 /* TextViewInTableViewCell.m in Sources */,
+				B0E9CE641E87FA2A00798F80 /* AppDelegate.m in Sources */,
+				B0E9CE611E87FA2A00798F80 /* main.m in Sources */,
+				B0E9CE951E87FA8800798F80 /* RCAutomaticHeightTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E9CE711E87FA2A00798F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E9CE7A1E87FA2A00798F80 /* RCAutomaticHeightTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E9CE7C1E87FA2A00798F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E9CE851E87FA2A00798F80 /* RCAutomaticHeightTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0E9CE771E87FA2A00798F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0E9CE5B1E87FA2A00798F80 /* RCAutomaticHeightTextView */;
+			targetProxy = B0E9CE761E87FA2A00798F80 /* PBXContainerItemProxy */;
+		};
+		B0E9CE821E87FA2A00798F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0E9CE5B1E87FA2A00798F80 /* RCAutomaticHeightTextView */;
+			targetProxy = B0E9CE811E87FA2A00798F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0E9CE681E87FA2A00798F80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E9CE691E87FA2A00798F80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0E9CE6D1E87FA2A00798F80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E9CE6E1E87FA2A00798F80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E9CE871E87FA2A00798F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0E9CE881E87FA2A00798F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0E9CE8A1E87FA2A00798F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Q2P7CQ42U;
+				INFOPLIST_FILE = RCAutomaticHeightTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyChang.RCAutomaticHeightTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0E9CE8B1E87FA2A00798F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Q2P7CQ42U;
+				INFOPLIST_FILE = RCAutomaticHeightTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyChang.RCAutomaticHeightTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0E9CE8D1E87FA2A00798F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RCAutomaticHeightTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyChang.RCAutomaticHeightTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCAutomaticHeightTextView.app/RCAutomaticHeightTextView";
+			};
+			name = Debug;
+		};
+		B0E9CE8E1E87FA2A00798F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RCAutomaticHeightTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyChang.RCAutomaticHeightTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCAutomaticHeightTextView.app/RCAutomaticHeightTextView";
+			};
+			name = Release;
+		};
+		B0E9CE901E87FA2A00798F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RCAutomaticHeightTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyChang.RCAutomaticHeightTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RCAutomaticHeightTextView;
+			};
+			name = Debug;
+		};
+		B0E9CE911E87FA2A00798F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RCAutomaticHeightTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyChang.RCAutomaticHeightTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RCAutomaticHeightTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E9CE571E87FA2A00798F80 /* Build configuration list for PBXProject "RCAutomaticHeightTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E9CE871E87FA2A00798F80 /* Debug */,
+				B0E9CE881E87FA2A00798F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E9CE891E87FA2A00798F80 /* Build configuration list for PBXNativeTarget "RCAutomaticHeightTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E9CE8A1E87FA2A00798F80 /* Debug */,
+				B0E9CE8B1E87FA2A00798F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0E9CE8C1E87FA2A00798F80 /* Build configuration list for PBXNativeTarget "RCAutomaticHeightTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E9CE8D1E87FA2A00798F80 /* Debug */,
+				B0E9CE8E1E87FA2A00798F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0E9CE8F1E87FA2A00798F80 /* Build configuration list for PBXNativeTarget "RCAutomaticHeightTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E9CE901E87FA2A00798F80 /* Debug */,
+				B0E9CE911E87FA2A00798F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E9CE541E87FA2A00798F80 /* Project object */;
+}
